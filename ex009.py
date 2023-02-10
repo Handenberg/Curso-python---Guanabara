@@ -1,0 +1,35 @@
+#CRIE UM ALGORITMO QUE LEIA UM NÚMERO INTEIRO E MOSTRE SUA TABUADA DE MULTIPLICAÇÃO
+
+n1 = int(input('Digite um número: '))
+tab1 = n1 * 1
+tab2 = n1 * 2
+tab3 = n1 * 3
+tab4 = n1 * 4
+tab5 = n1 * 5
+tab6 = n1 * 6
+tab7 = n1 * 7
+tab8 = n1 * 8
+tab9 = n1 * 9
+tab10 = n1 * 10
+
+print('A tabuada de: ', n1,'é:')
+print('-' * 12)
+print(n1,' x 1 =', tab1)
+print(n1, 'x 2 =', tab2)
+print(n1, 'x 3 =', tab3)
+print(n1, 'x 4 =', tab4)
+print(n1, 'x 5 =', tab5)
+print(n1, 'x 5 =', tab6)
+print(n1, 'x 7 =', tab7)
+print(n1, 'x 8 =', tab8)
+print(n1, 'x 9 =', tab9)
+print(n1, 'x 10 =', tab10)
+print('-' * 12)
+
+#OUTRO MÉTODO MAIS SIMPLES É CRIAR:
+for i in range(11):
+    print('{} X {} = {}'.format(n1, i, n1*i)) #E ASSIM POR DIANTE COM OS NÚMEROS DA SEQUÊNCIA
+
+
+
+
